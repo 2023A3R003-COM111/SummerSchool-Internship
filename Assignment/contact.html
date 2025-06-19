@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="icon" href="favicon.png">
+</head>
+<body>
+	<nav>
+		<a href="about.html">about</a>
+		<br>
+		<a href="protfolio.html">Protfolio</a>
+		<br>
+		<a href="contact.html">Contact</a>
+	</nav>
+	<hr>
+	<br>
+	<img src="contactme.png" alt="Contact image" width="200">
+
+	<form action="link.html">
+		Your Name: <input type="text" placeholder="Name..." id="search">	
+		<br>
+		*Email: <input type="email" placeholder="Enter mail" required value="@gmail.com">
+		<br>
+		Mobile No.: <input type="number" placeholder="Mobile Number...">
+
+		<h3>Preffered Contact method</h3>
+		<select name="color">
+			<option value="Email">Email</option>
+			<option value="Phone">Phone</option>
+			<option value="Text">Text</option>
+		</select>
+
+		<h3>Enquiry Type</h3>
+		<input type="radio" id="press">General</input>
+		<input type="radio" id="press">Business</input>
+		<input type="radio" id="press3">Support</input>
+
+		<br>
+		<br>
+
+		<button>Submit</button>
+	</form>
+
+	<br />
+	<label for="department">Select your Department:</label>
+	<select id="department" name="department" required>
+		 <option value="">--Select--</option>
+	 	<option value="ece">ECE</option>
+	 	<option value="cse">CSE</option>
+	 	<option value="civil">Civil</option>
+	</select>
+
+	<br /><br />
+	<label for="dob">Date of Birth:</label>
+	<input type="date" id="dob" name="dob" required />
+
+	<br /><br />
+	<label for="experience">Rate Your Experience (1-10):</label>
+	<input type="range" id="experience" name="experience" min="1" max="10" />
+
+	<!--
+	<p>Name: harish Kumar</p>
+	<p>Mobile Number: 8899488755</p>
+	<p>Gmail: harishkashyap0810@gmail.com</p>
+	<p>Github: https://www.github.com/xxace8xx</p>
+	-->
+
+	<hr>
+	<footer>
+		<p>Site created by Harish Kashyap @ SummerSchool intern</p>
+	</footer>
+</body>
+</html>
